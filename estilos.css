@@ -1,0 +1,42 @@
+.post-encabezado{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px;
+}
+.post-encabezado img{
+    background-color: gainsboro;
+}
+
+.boton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+    
+}
+body {
+        background-color: #fafafa;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+.card {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+.card-img-top {
+        object-fit: cover;
+        height: 250px;
+      }
+
+.navbar-brand img {
+        border-radius: 50%;
+      }
+
+
+.imagen-post{
+  width: 50%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
